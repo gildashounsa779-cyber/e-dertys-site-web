@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - e-Dertys</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="log">
+      <a href="index.html"> <img src="logo.jpg" alt="Logo" class="logo"> </a>
+    </div>
+    <div class="container">
+      <h1>e-Dertys</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="produits.html">Produits</a></li>
+          <li><a href="apropos.html">À propos</a></li>
+          <li><a href="avis.html">Avis</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+   <section class="contact">
+     <div class="container">
+     <h1>Contactez-nous</h1>
+     <p>Vous avez une question, besoin d’assistance ou souhaitez demander un devis ? Remplissez le formulaire ou utilisez nos contacts directs ci-dessous.</p>
+
+     <!-- Infos de contact -->
+     <div class="contact-info">
+       <p><strong>📞 Téléphone :</strong> <a href="tel:+2290197633529">+229 01 97 63 35 29</a></p>
+       <p><strong>📧 Email :</strong> <a href="dertys01@gmail.com">dertys01@gmail.com</a></p>
+       <p><strong>📍 Adresse :</strong> Cotonou Scoa gbeto, Von après l'école publique de Scoa gbeto, Bénin</p>
+       <a class="btn-whatsapp" href="https://wa.me/22997633529" target="_blank">💬 Discuter sur WhatsApp</a>
+     </div>
+
+     <!-- Formulaire de contact -->
+     <form class="contact-form" action="traitement_formulaire.php" method="post">
+       <input type="text" name="nom" placeholder="Votre nom" required>
+       <input type="email" name="email" placeholder="Votre email" required>
+       <input type="tel" name="telephone" placeholder="Votre téléphone (facultatif)">
+       <textarea name="message" rows="5" placeholder="Votre message..." required></textarea>
+       <button type="submit">Envoyer le message</button>
+     </form>
+   </div>
+
+   <div class="map-container">
+     <h2>📍 Nous localiser</h2>
+     <iframe
+       src="https://www.google.com/maps?q=E Dertys GSM,+Cotonou,+Benin&output=embed"
+       width="100%"
+       height="300"
+       style="border:0;"
+       allowfullscreen=""
+       loading="lazy"
+       referrerpolicy="no-referrer-when-downgrade">
+     </iframe>
+   </div>
+ </section>
+
+  </main>
+  
+
+ <footer class="site-footer">
+  <div class="footer-container">
+    
+    <div class="footer-section">
+      <h2 class="footer-logo">e-Dertys</h2>
+      <p class="footer-description">Votre expert tech de confiance : vente, achat et maintenance de Smartphones, Ordinateurs, Moniteurs et Gadgets .</p>
+    </div>
+
+    <div class="footer-section">
+      <h3>Liens utiles</h3>
+      <ul class="footer-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="produits.html">Produits</a></li>
+        <li><a href="apropos.html">À propos</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Contact</h3>
+      <p>Email : dertys01@gmail.com</p>
+      <p>Téléphone :+229 01 97 63 35 29</p>
+      <p>Adresse : Cotonou Scoa gbeto, Von après l'école publique de Scoa gbeto, Bénin</p>
+    </div>
+
+    <div class="footer-section">
+      <h3>Suivez-nous</h3>
+      <div class="social-links">
+        <a href="https://www.facebook.com/Dertyselectronics"><img src="face.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com/DERTYSElectronics"><img src="inta.jpeg" alt="Instagram"></a>
+        <a href="https://wa.me/22997633529"><img src="whatsapp.png" alt="WhatsApp"></a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 e-Dertys. Tous droits réservés.</p>
+  </div>
+</footer>
+</body>
+</html>
